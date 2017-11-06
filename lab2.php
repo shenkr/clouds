@@ -8,19 +8,23 @@
 // 1.
 $age = 19;
 
-if($age >= 18 && $age <= 22) {
+if($age >= 18 && $age <= 22)
+{
   echo "Привіт студент";
 }
-else {
+else
+{
   echo "Привіт магістр";
 }
 
 // 2.
 $i = 0;
 
-while($i <= 50) {
+while($i <= 50)
+{
 
-  if($i % 2 != 0) {
+  if($i % 2 != 0)
+  {
       echo $i."</br>";
   }
 
@@ -28,7 +32,8 @@ while($i <= 50) {
 }
 
 // 3.
-function table($row1, $row2, $row3, $row4) {
+function table($row1, $row2, $row3, $row4)
+{
   echo "<table><tr><td>".$row1."</td></tr><tr><td>".$row2."</td></tr><tr><td>".$row3."</td></tr><tr><td>".$row4."</td></tr></table>";
 }
 ?>
